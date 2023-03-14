@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title> Comments </title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Для SEO -->
+    <meta name="description" content="Блок с комментариями">
+    <meta name="keywords" content="комментарии">
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+
+            <div class="image">
+                <img src="./img/картинка.jpg" alt="Котэ">
+            </div>
+
+            <form name="form" class="form">
+                <div class="form__row">
+                    <div class="form__item">
+                        <label class="form__label" for="name">Введите имя:</label>
+                        <input class="form__input" type="text" name="name">
+                    </div>
+                    <div class="form__item">
+                        <label class="form__label" for="date">Введите дату:</label>
+                        <input class="form__input" type="text" name="date">
+                    </div>
+                </div>
+                <div class="form__item">
+                    <label class="form__label" for="message">Введите текст комментария:</label>
+                    <textarea class="form__input form__input_text" name="message"></textarea>
+                </div>
+                <button class="form__button" type="submit">Отправить</button>
+            </form>
+
+            <section class="comments">
+                <div class="comments__title">Комментарии:</div>
+                <div class="comments__body">
+
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
